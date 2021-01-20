@@ -1,0 +1,144 @@
+body{
+    background-color:#ddd;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+
+}
+.container{
+    margin:auto;
+}
+
+.far{
+    border:1px solid black;
+    padding:16px;    
+    color:black;
+   
+   box-shadow:2px 5px 16px 0px #0B325E;
+    
+}
+
+.far:hover{
+    color:#f2c6a0;
+    box-shadow: 0px 10px 13px -7px #000000;
+}
+.far:active{
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+}
+
+.fa-facebook{
+color: #3B5998;
+}
+.fa-twitter{
+color:#1DA1F2;
+}
+
+.fa-instagram{
+    background: linear-gradient(45deg,#405DE6, #5851DB,#833AB4,#C13584,#E1306c,#FD1d1d);
+    color:white;
+    border-radius:25%;
+    padding:4px;
+}
+
+.fa-linkedin{
+    color:#0E76A8;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+
+hr{
+    background-color:#038c7f;
+    border:none;
+    height: 2px;
+
+}
+
+h1{
+    
+    text-align:center;
+    margin:0px 0px 35px 0;
+    color:#385273;
+    font-size: 42px;
+}
+
+h2,
+h3{
+    font-family: 'Crete Round', serif;
+    font-size:25px;
+}
+.card-contact{
+  text-align:center;  
+  margin:0px 0px 15px 0;
+  background-color:white;
+
+}
+.card-info{
+    margin: 0 0 12px;
+    text-align:center;
+}
+
+.card{
+    background-color:white;
+}
+
+.mail-space 
+input{
+    border:none;
+    color:grey;
+    padding:10px;
+    margin:8px; 
+
+}
+.mail-space{
+    padding:5px;
+}
+
+input[type="submit"]{
+    width:50%;
+    margin:auto;
+   background-color:#385273;
+   color:whitesmoke;
+}
+img,.me{
+  width:100%;
+  height:auto;
+    
+}
+
+.oberlin{  
+height:auto;
+}
+.card-middle
+img{
+    height: 125px;
+}
+.card-words
+p{
+    padding: 0px 16px 16px 16px;
+    text-align: justify;
+    margin: 0px;
+    font-size: 12px;;
+}
+.footer,
+.card,
+.card-contact{
+    background-color:whitesmoke;
+}
+
+.card-middle {
+   width:75%;
+   background-color: whitesmoke;
+  }
+  .middle-card {
+    padding: 2px 16px;
+    display: flex;
+    flex-direction: row;
+  }
+  .half{
+      width:90%;
+  }
+

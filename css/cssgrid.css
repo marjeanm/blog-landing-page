@@ -1,0 +1,80 @@
+@import url('flexcss.css');
+@import url('style.css');
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.container{
+  display:grid;
+  width: 100%;
+  height:250px;
+  grid-template-areas: 
+  "head head"
+  "nav main"
+  "foot foot";
+  grid-template-columns:1fr 3fr;
+  grid-template-rows:150px 1fr;
+
+}
+.heading{
+grid-area:head;
+  
+ }
+.sidebar{
+   grid-area:nav;
+  }
+.content{
+    grid-area:main;
+  }
+.footer{
+   grid-area: foot; 
+}
+@media only screen and (max-width:600px) {
+  .container{
+  grid-template-areas:
+        "head"
+        "nav"
+        "main"
+        "foot";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    text-align:center;
+   
+    font-size:12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-wrapper{
+  max-width:600px;
+  font-size:20px;
+}
+.flex-footer
+a{
+  padding:10px;
+font-size: 20px;
+}
+
+}
+
+@media only screen and (max-width:768px) {
+  .container{
+  grid-template-areas:
+        "head"
+        "nav"
+        "main"
+        "foot";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    text-align:center;
+    
+    font-size:12px;
+    font-family: 'Times New Roman', Times, serif;
+    margin:0px;
+}
+
+.main-wrapper{
+    font-size: 20px;
+}
+}
